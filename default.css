@@ -1,0 +1,124 @@
+/* http://meyerweb.com/eric/tools/css/reset/, v2.0 | 20110126, License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, strike, strong, sub, sup, tt, var,center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* me */
+body {
+	font: 18px/25px 'Open Sans', sans-serif;
+	margin: 2em auto 2em auto;
+	max-width: 400px;
+  background: url(agsquare.png);
+}
+
+.menu-header {
+  background: #333;
+  color: #FFF229;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #FFF229;
+  letter-spacing: 5px;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.info-table {
+  width: 100%;
+  border-collapse:collapse;
+  border-spacing:0;
+  border-color:#8e44ad;
+  border-width:1px;
+  border-style:solid;
+  margin: 0.5em 0 2em;
+}
+  
+.info-table td:first-child {
+  text-transform: uppercase;
+  font-size:medium;
+  font-weight:normal;
+  padding:10px 15px;
+  border-style:solid;
+  border-width:1px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:#444;
+  color:#fff229;
+  background-color:#333;
+}
+  
+.info-table td{
+  font-size:medium;
+  padding:10px 15px;
+  border-style:solid;
+  border-width:1px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:#444;
+  color:#333;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 1em 0;
+}
+
+h2 {
+  font-weight: bold;
+  margin: 0 0 0.7em 0;
+}
+
+ul {
+  margin: 0.5em 0 2em;
+  list-style-position: inside;
+}
+
+p {
+  margin: 0.5em 0 2em;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#menu {
+  list-style: none;
+  background: #333;  
+}
+
+
+#menu a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  border-bottom: 1px solid #444;
+  color: #fff229;
+  transition-duration: 0.2s;
+}
+
+#menu li:last-child a {
+  border-bottom: none;
+}
+
+#menu a:hover {
+  background: #444;
+  /* background: linear-gradient(to bottom, #8e44ad 0%,#9b59b6 100%); */
+}
+
