@@ -1,2 +1,2 @@
 # pb029-web-fimuni
-School project for PB029 (http://www.fi.muni.cz/~xvitovs1/)
+Web presentation for a school project (course PB029).
